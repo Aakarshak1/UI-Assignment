@@ -1,0 +1,3 @@
+export const INIT_APP = 'INIT_APP';
+export const SET_STORE_DATA = 'SET_STORE_DATA';
+export const FETCH_DATA_FROM_STORE = 'FETCH_DATA_FROM_STORE';

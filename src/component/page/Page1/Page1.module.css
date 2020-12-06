@@ -1,0 +1,94 @@
+.container {
+  display: -webkit-flex;
+  /* display: flex; */
+  -webkit-flex-direction: row;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  line-height: 0.5;
+}
+
+.Box_wrapper {
+  width: 100%;
+  display: flex;
+}
+.Box {
+  margin: 10px 12px;
+  flex: 1;
+  padding: 2px 10px;
+  width: 370px;
+  height: 140px;
+  border: 1px solid grey;
+  border-radius: 2px;
+  text-align: left;
+}
+
+.chart_wrapper {
+  display: flex;
+  width: 98%;
+  margin: 0 12px;
+}
+
+.chart {
+  margin: 10px 0;
+  /* padding-top: 5px;
+  padding-left: 10px;
+  padding-right: 10px; */
+  padding: 5px 10px;
+  width: 575px;
+  border: 1px solid grey;
+  border-radius: 2px;
+  /* height: 70%; To be remove letter */
+  /* 380px */
+}
+
+.pie_chart {
+  /* margin-left: 0; */
+  margin-right: 10px;
+}
+
+.bar_chart {
+  margin-left: 10px;
+  /* margin-right: 0; */
+}
+.container .Box:first-child {
+  margin-left: 1%;
+}
+
+.chart_title {
+  font-weight: bold;
+  font-size: 1em;
+}
+
+.pageTitle {
+  margin: 5px;
+  padding: 0 35px;
+  display: inline;
+  font-size: 18px;
+}
+
+@media only screen and (max-width: 700px) {
+  .chart {
+    margin: 10px 0;
+    /* padding-top: 5px;
+    padding-left: 10px;
+    padding-right: 10px; */
+    width: 340px;
+    border: 1px solid grey;
+    border-radius: 2px;
+  }
+
+  .Box {
+    margin: 10px 12px !important;
+    padding: 2px 10px;
+    width: 370px;
+    height: 140px;
+    border: 1px solid grey;
+    border-radius: 2px;
+    text-align: left;
+  }
+  .container .Box:first-child {
+    margin-left: 0;
+  }
+}

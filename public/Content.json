@@ -1,0 +1,42 @@
+{
+  "page": [
+    {
+      "title": "Page1",
+      "Content": {
+        "BoxContent": {
+          "Box1": "Type Something Here",
+          "Box2": "Box2 Content goes Here",
+          "Box3": "Box3 Content goes Here"
+        },
+        "PieChartContent": {
+          "datasets": [
+            {
+              "backgroundColor": [
+                "#4FB99D",
+                "#F5A68B",
+                "#6EB8FE",
+                "#8287E9",
+                "#FBCE48"
+              ],
+              "borderWidth": 2.5,
+              "data": [33, 26, 14, 14, 27]
+            }
+          ]
+        },
+        "BarChartContent": {
+          "labels": ["3-20", "20-36", "36-52", "52-68", "68-84"],
+          "datasets": [
+            {
+              "backgroundColor": "#F8C8BD",
+              "data": [4000, 4200, 3500, 3000, 4500]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "title": "Page2",
+      "Content": "Coming Soon"
+    }
+  ]
+}
