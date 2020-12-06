@@ -35,12 +35,6 @@ const Page1 = ({ data }) => {
                   data={{ datasets: data.Content.PieChartContent.datasets }}
                   plugins={[ChartDataLabels]}
                   options={{
-                    // title: {
-                    //   display: true,
-                    //   text: 'Average Rainfall per month',
-                    //   fontSize: 20,
-                    //   position: 'top',
-                    // },
                     tooltips: { enabled: false },
                     hover: { mode: null },
                     legend: {
